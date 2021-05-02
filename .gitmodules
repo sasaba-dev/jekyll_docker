@@ -1,0 +1,3 @@
+[submodule "sasaba-dev.github.io"]
+	path = sasaba-dev.github.io
+	url = git@github.com:sasaba-dev/sasaba-dev.github.io.git
