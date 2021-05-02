@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ruby:
+    build: .
+    command: /bin/sh -c "while :; do sleep 10; done"
+    volumes: 
+      - .:/volumes
+    ports: 
+      - "4000:4000"
